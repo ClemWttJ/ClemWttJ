@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       - uses: lowlighter/metrics@latest
-    with:
-      filename: metrics.base.svg
-      token: ${{ secrets.METRICS_TOKEN }}
-      base: header, activity, community, repositories, metadata
+        with:
+         filename: metrics.base.svg
+         token: ${{ secrets.METRICS_TOKEN }}
+         base: header, activity, community, repositories, metadata
